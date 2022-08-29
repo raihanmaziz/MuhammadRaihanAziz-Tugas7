@@ -432,11 +432,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4aa14192af18ee34c80871ddaf28268a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _bgmAudioSource:
-  - {fileID: 4425527211486183698}
-  - {fileID: 4425527212116955817}
-  - {fileID: 4425527211175537678}
-  - {fileID: 4425527212361877604}
+  _bgmAudioSource: {fileID: 0}
   isAudioEnabled: 0
 --- !u!1 &4425527212361877605
 GameObject:

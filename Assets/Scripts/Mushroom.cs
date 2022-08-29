@@ -30,7 +30,7 @@ public class Mushroom : MonoBehaviour
     private void Update()
     {
         _despawnTimer += Time.deltaTime;
-        if ( _despawnTimer > _despawnDelay)
+        if (_despawnTimer > _despawnDelay)
         {
             gameObject.SetActive(false);
             _despawnTimer = 0;

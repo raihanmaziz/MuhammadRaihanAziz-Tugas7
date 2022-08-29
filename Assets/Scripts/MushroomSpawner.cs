@@ -17,7 +17,7 @@ public class MushroomSpawner : MonoBehaviour
         GameObject mushroom = pool.Find(i => !i.gameObject.activeSelf);
         if (mushroom == null)
         {
-            mushroom = Instantiate(prefab, transform.position, Quaternion.identity);
+            mushroom = Instantiate(prefab);
             pool.Add(mushroom);
         }
         mushroom.transform.position = transform.position;
