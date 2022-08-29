@@ -2,6 +2,8 @@
 Sample Game for practicing game optimization (reduce draw call, object pooling, resource load)
 
 
-For audio resources, only used BGM is loaded to the game. This can reduce memory usage of the game.
+1. For audio resources, only used BGM is loaded to the game. This can reduce memory usage of the game.
 
+2. Adding object pooling for mushroom spawner
 
+3. Adding atlas for main menu button making the batches 3 instead of 4
